@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "PharmacyApi.Controllers.MedicineController",
+    "Method": "GetAll",
+    "RelativePath": "api/Medicine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "medicine"
+  },
+  {
+    "ContainingType": "PharmacyApi.Controllers.MedicineController",
+    "Method": "Save",
+    "RelativePath": "api/Medicine",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "PharmacyApi.Models.MedicineModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "medicine"
+  },
+  {
+    "ContainingType": "PharmacyApi.Controllers.MedicineController",
+    "Method": "Update",
+    "RelativePath": "api/Medicine",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "PharmacyApi.Models.MedicineModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "medicine"
+  },
+  {
+    "ContainingType": "PharmacyApi.Controllers.MedicineController",
+    "Method": "Delete",
+    "RelativePath": "api/Medicine",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicineId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "medicine"
+  },
+  {
+    "ContainingType": "PharmacyApi.Controllers.WelcomeController",
+    "Method": "Get",
+    "RelativePath": "api/Welcome",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "welcome"
+  }
+]
