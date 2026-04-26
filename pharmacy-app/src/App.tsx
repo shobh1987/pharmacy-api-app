@@ -1,12 +1,12 @@
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+const API_URL = import.meta.env.VITE_APP_API_URL;
+console.log('API URL:', API_URL);
 
+function App() {
   return (
     <>
       <section id="center">
@@ -16,17 +16,16 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Get started</h1>
+          <h1>Pharmacy Application</h1>
           <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
+            Welcome to the Pharmacy Application! GET | Add | Edit | Delete
           </p>
         </div>
         <button
           type="button"
           className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
+          onClick={() => window.open(`${API_URL}openapi/v1.json`, '_blank')}>
+          Continue to explore the Application
         </button>
       </section>
 
@@ -38,18 +37,12 @@ function App() {
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
           <h2>Documentation</h2>
-          <p>Your questions, answered</p>
+          <p>API Open ai </p>
           <ul>
             <li>
-              <a href="https://vite.dev/" target="_blank">
+              <a href={`${API_URL}openapi/v1.json`} target="_blank">
                 <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
+                Explore Pharmacy API
               </a>
             </li>
           </ul>
@@ -59,10 +52,10 @@ function App() {
             <use href="/icons.svg#social-icon"></use>
           </svg>
           <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
+          <p>Join the Pharmacy API community</p>
           <ul>
             <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
+              <a href="https://github.com/shobh1987/pharmacy-api-app" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
@@ -71,42 +64,6 @@ function App() {
                   <use href="/icons.svg#github-icon"></use>
                 </svg>
                 GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
               </a>
             </li>
           </ul>
