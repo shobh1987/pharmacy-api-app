@@ -27,13 +27,16 @@ namespace PharmacyApi.Data.Implementations
         public async Task<IEnumerable<MedicineModel>> GetAllMedicinesAsync(Expression<Func<MedicineModel, bool>>? predicate = null)
         {
             var medicines = GetAll();
+            var filtered = medicines.Where(x => !x.IsDeleted);
             if (predicate != null)
             {
-                var filtered = medicines.AsQueryable().Where(predicate).ToList();
-                return await Task.FromResult<IEnumerable<MedicineModel>>(filtered.Where(x => !x.IsDeleted));
+                var result = filtered.AsQueryable().Where(predicate);
+                return await Task.FromResult<IEnumerable<MedicineModel>>(result);
             }
-
-            return await Task.FromResult(medicines);
+            else
+            {
+                return await Task.FromResult<IEnumerable<MedicineModel>>(filtered);
+            }
         }
 
         public async Task<MedicineModel?> GetByIdAsync(long id)

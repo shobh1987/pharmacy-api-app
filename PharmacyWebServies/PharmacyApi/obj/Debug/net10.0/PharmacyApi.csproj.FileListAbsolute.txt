@@ -31,3 +31,5 @@ D:\workspace\PharmacySystem\PharmacyWebServies\PharmacyApi\obj\Debug\net10.0\ref
 D:\workspace\PharmacySystem\PharmacyWebServies\PharmacyApi\obj\Debug\net10.0\PharmacyApi.pdb
 D:\workspace\PharmacySystem\PharmacyWebServies\PharmacyApi\obj\Debug\net10.0\PharmacyApi.genruntimeconfig.cache
 D:\workspace\PharmacySystem\PharmacyWebServies\PharmacyApi\obj\Debug\net10.0\ref\PharmacyApi.dll
+D:\workspace\PharmacySystem\PharmacyWebServies\PharmacyApi\obj\Debug\net10.0\PharmacyApi.sourcelink.json
+D:\workspace\PharmacySystem\PharmacyWebServies\PharmacyApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

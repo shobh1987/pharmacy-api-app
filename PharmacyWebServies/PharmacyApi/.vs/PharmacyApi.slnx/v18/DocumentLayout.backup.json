@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\workspace\\PharmacySystem\\PharmacyWebServies\\PharmacyApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D9F79E9-CB78-4CE5-966F-D10DC16A658D}|PharmacyApi.csproj|d:\\workspace\\pharmacysystem\\pharmacywebservies\\pharmacyapi\\controllers\\welcomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D9F79E9-CB78-4CE5-966F-D10DC16A658D}|PharmacyApi.csproj|solutionrelative:controllers\\welcomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90056D33-2D23-4498-EF1B-DCB1B40B82FD}|PharmacyApi.csproj|d:\\workspace\\pharmacysystem\\pharmacywebservies\\pharmacyapi\\data\\implementations\\medicinedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90056D33-2D23-4498-EF1B-DCB1B40B82FD}|PharmacyApi.csproj|solutionrelative:data\\implementations\\medicinedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D9F79E9-CB78-4CE5-966F-D10DC16A658D}|PharmacyApi.csproj|d:\\workspace\\pharmacysystem\\pharmacywebservies\\pharmacyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D9F79E9-CB78-4CE5-966F-D10DC16A658D}|PharmacyApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90056D33-2D23-4498-EF1B-DCB1B40B82FD}|PharmacyApi.csproj|d:\\workspace\\pharmacysystem\\pharmacywebservies\\pharmacyapi\\controllers\\medicinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90056D33-2D23-4498-EF1B-DCB1B40B82FD}|PharmacyApi.csproj|solutionrelative:controllers\\medicinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90056D33-2D23-4498-EF1B-DCB1B40B82FD}|PharmacyApi.csproj|d:\\workspace\\pharmacysystem\\pharmacywebservies\\pharmacyapi\\controllers\\welcomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90056D33-2D23-4498-EF1B-DCB1B40B82FD}|PharmacyApi.csproj|solutionrelative:controllers\\welcomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90056D33-2D23-4498-EF1B-DCB1B40B82FD}|PharmacyApi.csproj|d:\\workspace\\pharmacysystem\\pharmacywebservies\\pharmacyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90056D33-2D23-4498-EF1B-DCB1B40B82FD}|PharmacyApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,25 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MedicineData.cs",
+              "DocumentMoniker": "D:\\workspace\\PharmacySystem\\PharmacyWebServies\\PharmacyApi\\Data\\Implementations\\MedicineData.cs",
+              "RelativeDocumentMoniker": "Data\\Implementations\\MedicineData.cs",
+              "ToolTip": "D:\\workspace\\PharmacySystem\\PharmacyWebServies\\PharmacyApi\\Data\\Implementations\\MedicineData.cs",
+              "RelativeToolTip": "Data\\Implementations\\MedicineData.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAMwCUAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T09:57:07.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "WelcomeController.cs",
               "DocumentMoniker": "D:\\workspace\\PharmacySystem\\PharmacyWebServies\\PharmacyApi\\Controllers\\WelcomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\WelcomeController.cs",
               "ToolTip": "D:\\workspace\\PharmacySystem\\PharmacyWebServies\\PharmacyApi\\Controllers\\WelcomeController.cs",
               "RelativeToolTip": "Controllers\\WelcomeController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAtwAoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T14:29:04.15Z",
+              "WhenOpened": "2026-04-27T09:57:03.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MedicineController.cs",
+              "DocumentMoniker": "D:\\workspace\\PharmacySystem\\PharmacyWebServies\\PharmacyApi\\Controllers\\MedicineController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MedicineController.cs",
+              "ToolTip": "D:\\workspace\\PharmacySystem\\PharmacyWebServies\\PharmacyApi\\Controllers\\MedicineController.cs",
+              "RelativeToolTip": "Controllers\\MedicineController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:33:27.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\workspace\\PharmacySystem\\PharmacyWebServies\\PharmacyApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\workspace\\PharmacySystem\\PharmacyWebServies\\PharmacyApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowDYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-26T14:27:46.555Z",
               "EditorCaption": ""
